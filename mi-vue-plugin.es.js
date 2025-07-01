@@ -11716,7 +11716,7 @@ const rd = { class: "header-wrapper" }, ld = ["src"], ad = { class: "quote-resul
       console.log("Searching devices for:", M.query), F(M.query);
     }
     ri(() => {
-      T(), W();
+      console.log("The Refresh Mobile Plugin Has Been Mounted!"), T(), W();
     });
     const E = async () => {
       try {
